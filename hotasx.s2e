@@ -1,22 +1,23 @@
-{	"extensionName": "HotasX",
-	"description": "Support for Thrustmaster T.Flight Hotas X joystick",
-	"version": "0.1",
-	"author": "Aivar Annamaa (aivar.annamaa@gmail.com)",
-	"homepage": "https://github.com/aivarannamaa/mBlockHotas",
-	"sort":0,
-	"javascriptURL":"js/hotasx.js",
-  "firmware":"1.0",
-  "extensionPort":0,
-	"blockSpecs": [
-		['r', 'get joystick %m.joystickPart', 'readJoystick', 'leftX']
-	],
-	"menus": {
-		"joystickPart": ['leftX', 'leftY', 'rightX', 'rightY']
-	},
-	"values":{
-	},
-	"translators":{
-		"et_EE":{
-		}
-	}
+{
+    "extensionName": "HotasX",
+    "description": "Support for Thrustmaster T.Flight Hotas X joystick",
+    "version": "0.2",
+    "author": "Aivar Annamaa (aivar.annamaa@gmail.com)",
+    "homepage": "https://github.com/aivarannamaa/mBlockHotas",
+    "sort":0,
+    "javascriptURL":"js/hotasx.js",
+    "firmware":"1.0",
+    "extensionPort":0,
+    "blockSpecs": [
+        ["r", "get joystick %m.joystickPart", "readJoystick", "X"]
+    ],
+    "menus": {
+        "joystickPart": ["X", "Y"]
+    },
+    "values":{
+    },
+    "translators":{
+        "et_EE":{
+        }
+    }
 }
